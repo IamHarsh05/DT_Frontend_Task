@@ -1,0 +1,45 @@
+.card{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+    background: #FDFDFD;
+    padding: 1rem;
+}
+
+.cardtitlediv{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 0;
+    justify-content: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.cardtitle {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.carddisc {
+    border-radius: 5px;
+    background: #E9ECEF;
+    padding: 0.5rem 2rem;
+}
+
+video{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .card{
+        width: 100%;
+    }
+}

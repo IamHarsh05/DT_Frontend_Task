@@ -1,0 +1,65 @@
+.title {
+    color: #0029FF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    margin: 2rem 1rem;
+}
+
+.disc {
+    border-radius: 5px;
+    background: #E9ECEF;
+    margin: 2rem 1rem;
+    padding: 2rem 2rem;
+    width: 75%;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.threadTitle p,
+textarea {
+    padding: 0.25rem 1rem;
+    width: 100%;
+}
+
+.thread {
+    border-radius: 10px;
+    border: 0.1px solid #333;
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.25);
+    margin: 1rem 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0.25rem;
+}
+
+.btn {
+    padding: 0.25rem;
+    border: 0.1px solid #333;
+    border-radius: 0.25rem;
+    box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.pointersTitle {
+    margin: 1rem 1rem;
+}
+
+.inputTitleBox {
+    margin: 1rem 1rem;
+}
+
+.inputTitle {
+    width: 100%;
+    margin: 1rem 1rem;
+    padding: 0.25rem;
+    box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.25);
+}
