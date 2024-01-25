@@ -87,3 +87,43 @@ export const Options = () => {
     />
   </svg>;
 };
+
+export const MeetingIcon = () => {
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+    class="w-6 h-6"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+    />
+  </svg>;
+};
+export const QuestionMark = () => {
+  <svg
+    width="37"
+    height="40"
+    viewBox="0 0 37 40"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="37" height="40" fill="url(#pattern0)" />
+    <defs>
+      <pattern
+        id="pattern0"
+        patternContentUnits="objectBoundingBox"
+        width="1"
+        height="1"
+      >
+        <use transform="matrix(0.00211149 0 0 0.00195312 -0.0405405 0)" />
+      </pattern>
+      <image id="image0_20287_353" width="512" height="512" />
+    </defs>
+  </svg>;
+};
+export const ScheduleIcon = () => {};

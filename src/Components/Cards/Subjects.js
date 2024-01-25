@@ -60,7 +60,6 @@ export default function Subjects() {
             <div className="flex flex-col md:flex-row items-start">
               <Card3 />
             </div>
-
           </div>
         ) : loading ? (
           <></>
