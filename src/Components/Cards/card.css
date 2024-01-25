@@ -4,8 +4,10 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 1rem;
-    background: #FDFDFD;
+    background: #e8e8e8;
     padding: 1rem;
+    margin: 0.25rem;
+    
 }
 
 .cardtitlediv{
